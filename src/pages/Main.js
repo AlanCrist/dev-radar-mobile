@@ -46,7 +46,6 @@ function Main({ navigation }) {
         });
 
         setDevs(response.data.devs)
-        console.log(response.data);
     }
 
     function handleRegionChanged(region) {
